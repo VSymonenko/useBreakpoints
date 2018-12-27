@@ -53,6 +53,7 @@ export default function useBreakpoints(arg = {
   useEffect(() => {
     window.addEventListener('resize', handleResize)
     // simulate componentWillUnmount react lifecycle hook.
+
     // Every effect may return a function that cleans up after it. This is optional.
     return () => {
       window.removeEventListener('resize', handleResize)
