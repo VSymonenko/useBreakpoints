@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./dist/es2015.min.js');
+module.exports = require('./lib/es2015.min.js');
