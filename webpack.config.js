@@ -5,7 +5,7 @@ module.exports = {
   entry: './dev/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'es2015.js'
+    filename: 'es2015.min.js'
   },
   module: {
     rules: [

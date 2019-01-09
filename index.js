@@ -1,1 +1,3 @@
-export { default } from './dist/es2015'
+'use strict';
+
+module.exports = require('./dist/es2015.min.js');
