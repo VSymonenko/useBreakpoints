@@ -4,7 +4,7 @@ module.exports = {
   mode: 'production',
   entry: './dev/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'lib'),
     filename: 'es2015.min.js'
   },
   module: {
