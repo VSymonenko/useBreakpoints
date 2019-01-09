@@ -1,6 +1,6 @@
 {
   "name": "use-breakpoints",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Custom react hooks",
   "main": "index.js",
   "scripts": {
