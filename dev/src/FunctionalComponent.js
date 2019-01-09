@@ -1,5 +1,5 @@
 import React from 'react'
-import useBreakpoints from 'main/index'
+import useBreakpoints from './../index'
 
 export default function Component() {
   const test = {

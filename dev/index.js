@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function useBreakpoints(arg = {
   // default property
@@ -17,10 +17,10 @@ export default function useBreakpoints(arg = {
   },
   lg: {
     min: 1025,
-    max: 1280
+    max: 1500
   },
   xl: {
-    min: 1281,
+    min: 1501,
     max: null
   },
 }) {
