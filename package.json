@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.config.js"
+    "build": "babel --presets @babel/preset-env --presets minify dev/index.js --out-file lib/es2015.min.js"
   },
   "repository": {
     "type": "git",
@@ -25,11 +25,10 @@
     "react": "^16.7.0-alpha.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5",
-    "webpack": "^4.28.1",
-    "webpack-cli": "^3.2.1"
-  }
+    "babel-preset-minify": "^0.5.0"
+  },
+  "browserslist": "> 0.25%, not dead"
 }
