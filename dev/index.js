@@ -42,7 +42,7 @@ export default function useBreakpoints(arg = {
       }
     }
     // get name for screen resolution
-    breakpoints.screen = Object.keys(breakpoints).filter(prop => breakpoints[prop] && prop).toString()
+    breakpoints.screen = Object.keys(breakpoints).filter(prop => (breakpoints[prop] && prop !== 'screen') && prop).toString()
     setBreakpoints(breakpoints)
   }
   
